@@ -18,3 +18,6 @@ vim.api.nvim_create_autocmd("VimLeave", {
 -- relative numbers
 vim.opt.number = true
 vim.wo.relativenumber = true
+
+-- presistant history
+vim.opt.undofile = true
