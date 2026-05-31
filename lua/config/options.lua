@@ -21,3 +21,6 @@ vim.wo.relativenumber = true
 
 -- presistant history
 vim.opt.undofile = true
+
+-- Split right by default
+vim.opt.splitright = true
